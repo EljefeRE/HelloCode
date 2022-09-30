@@ -7,9 +7,9 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 if (num1 == num2 * num2)
 {
-    Console.WriteLine("Да");
+    Console.WriteLine("$Число {num1} является квадрато числа {num2}");
 }
 else
 {
-    Console.WriteLine("Нет");
+    Console.WriteLine("$Число {num1} НЕ является квадратом число {num2}");
 }
